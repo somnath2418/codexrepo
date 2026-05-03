@@ -1,0 +1,9 @@
+resource_group_name = "rg-demo-vm"
+location            = "centralindia"
+vm_name             = "demo-windows-vm"
+admin_username      = "azureuser"
+admin_password      = "Replace-With-A-Strong-Password123!"
+vm_size             = "Standard_B1s"
+
+# Recommended: replace with your public IP as a /32, for example "203.0.113.10/32".
+allowed_rdp_cidr = "0.0.0.0/0"
