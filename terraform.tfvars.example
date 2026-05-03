@@ -1,6 +1,6 @@
 resource_group_name = "rg-demo-vm"
 location            = "centralindia"
-vm_name             = "demo-windows-vm"
+vm_name             = "demo-vm"
 admin_username      = "azureuser"
 admin_password      = "Replace-With-A-Strong-Password123!"
 vm_size             = "Standard_B1s"

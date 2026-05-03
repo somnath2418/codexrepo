@@ -13,7 +13,7 @@ variable "location" {
 variable "vm_name" {
   description = "Name of the virtual machine."
   type        = string
-  default     = "demo-windows-vm"
+  default     = "demo-vm"
 }
 
 variable "admin_username" {
